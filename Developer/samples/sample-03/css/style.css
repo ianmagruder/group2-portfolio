@@ -17,7 +17,7 @@ textarea {
   font-size: 14px;
 }
 a {
-  color: #16a085;
+  color: #ff0000;
   text-decoration: none;
   -webkit-transition: 0.25s;
   -moz-transition: 0.25s;
@@ -879,21 +879,21 @@ section * {
   padding-right: 18px;
 }
 .header-11 .navbar .btn.btn-primary {
-  background-color: #16a085;
+  background-color: #04e4c7;
 }
 .header-11 .navbar .btn.btn-primary:hover,
 .header-11 .navbar .btn.btn-primary:focus {
-  background-color: #45b39d;
+  background-color: #04e4c7;
 }
 .header-11 .navbar .btn.btn-primary:active,
 .header-11 .navbar .btn.btn-primary.active {
-  background-color: #138871;
+  background-color: #04e4c7;
 }
 .header-11 .navbar .brand {
   padding-top: 30px;
   font-size: 25px;
   font-weight: normal;
-  color: #34495e;
+  color: #ff0000;
   font-weight: 600;
 }
 .header-11 .navbar .brand img:first-child {
@@ -908,7 +908,7 @@ section * {
 }
 .header-11 .navbar .nav > li:active a,
 .header-11 .navbar .nav > li.active a {
-  color: #16a085;
+  color: #04e4c7;
 }
 .header-11 .navbar .nav > li:active a:hover,
 .header-11 .navbar .nav > li.active a:hover,
@@ -916,7 +916,7 @@ section * {
 .header-11 .navbar .nav > li.active a:focus,
 .header-11 .navbar .nav > li:active a.active,
 .header-11 .navbar .nav > li.active a.active {
-  color: #16a085;
+  color: #04e4c7;
 }
 .header-11 .navbar .nav > li > a {
   padding: 41px 0 27px;
@@ -993,10 +993,8 @@ section * {
     font-weight: normal;
     color: #ffffff;
   }
-  .header-11-sub .player {
-    margin: 40px 0 45px;
+
   }
-}
 .header-11-sub .signup-form form {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-top: 40px;
@@ -1035,11 +1033,12 @@ section * {
 }
 .header-11-sub .signup-form form .btn.btn-info:hover,
 .header-11-sub .signup-form form .btn.btn-info:focus {
-  background-color: #16a085;
+  background-color: #f000ff;
+;
 }
 .header-11-sub .signup-form form .btn.btn-info:active,
 .header-11-sub .signup-form form .btn.btn-info.active {
-  background-color: #138871;
+  background-color: #f000ff;
 }
 .header-11-sub .signup-form form input[type="text"],
 .header-11-sub .signup-form form input[type="password"] {
@@ -1055,15 +1054,6 @@ section * {
   .header-11-sub .signup-form form {
     margin-top: 25px;
   }
-}
-.header-11-sub .player {
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
-  background: #bdc3c7;
-  position: relative;
-  overflow: hidden;
-  height: 360px;
 }
 .header-11-sub .player .btn-play {
   -webkit-box-sizing: border-box;
@@ -1089,45 +1079,8 @@ section * {
 .header-11-sub .player .btn-play.btn-primary.active {
   background-color: #138871;
 }
-.header-11-sub .player > iframe {
-  width: 100%;
-  height: 100%;
-  border: 0;
-  display: block;
-}
-@media (max-width: 480px) {
-  .header-11-sub .player {
-    height: 160px;
-  }
-}
 /* price */
-.ribbon {
-  display: block;
-  position: relative;
-  margin: 0;
-  padding: 0 10px!important;
-  background: #e74c3c;
-  color: #fff;
-  text-align: center;
-  font-size: 14px;
-  line-height: 24px;
-}
-.ribbon:before,
-.ribbon:after {
-  display: block;
-  position: absolute;
-  line-height: 0;
-}
-.ribbon:before {
-  content: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAgCAYAAADe+2JdAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAIcbAACL/wAA/RMAAIWJAACNJgAA5z0AADj/AAAeyY4zee8AAACLSURBVHja7M6xCcIAEAXQZwwpJI0W6V3AVgdwKrF3CWdwAhFcIjhDKiGCoDGxSVAxyQT5zcG94+5G+X4GS+zqOlEnxAKn72aTANs2aHCtIwGmfWjAAfsxhPIWeaSJVxaris98WN4i9/Nc9Rz/r32kSStA8Mri7oeqIsj7vj324QbXLrxghQN+TrwHABFIH/AzT59nAAAAAElFTkSuQmCC');
-  left: -7px;
-  bottom: 0;
-}
-.ribbon:after {
-  content: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAeCAYAAADkftS9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAIcbAACL/wAA/RMAAIWJAACNJgAA5z0AADj/AAAeyY4zee8AAACMSURBVHja7MwxDoJAFIThf9fVAo2x4A5cwprKytPY2HoJS6/hCbwBoaKi0WxYoyYg+ywICQK9jdPNl/dG5Zu1AA44Azsg1TRZAlvgAkQttlkBhz4CxGO4GEP++Cs0yc2ilWI+NYRBwGyim0svwr2syApHWdff716E6/M13HxUbztAL3I0nW6BE7D/DADKLyXavmqdkAAAAABJRU5ErkJggg==');
-  right: -5px;
-  top: 0;
-}
+
 /**
  * Price 1 stylesheet  
  * */
@@ -1140,7 +1093,6 @@ section * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  border: 3px solid #ebedee;
   padding: 25px 0;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -1158,7 +1110,7 @@ section * {
   color: #7f8c8d;
 }
 .price-1 .plan .title {
-  color: #2c3e50;
+  color: #f000ff;
   font-size: 24px;
   font-weight: 500;
   margin-bottom: 8px;
@@ -1176,21 +1128,7 @@ section * {
 .price-1 .plan .btn {
   min-width: 170px;
 }
-.price-1 .ribbon {
-  position: absolute;
-  right: -3px;
-  top: 26px;
-}
-@media (max-width: 991px) {
-  .price-1 .ribbon {
-    top: 4px;
-  }
-}
-@media (max-width: 767px) {
-  .price-1 .ribbon {
-    top: 26px;
-  }
-}
+
 @media (max-width: 767px) {
   .price-1 .plan {
     margin-top: 30px;
@@ -1323,7 +1261,7 @@ section * {
   max-width: 100%;
 }
 .content-13.subscribe-form .btn.btn-primary {
-  background: #16a085;
+  background: #ff0000;
 }
 .content-13.subscribe-form .btn.btn-primary:hover,
 .content-13.subscribe-form .btn.btn-primary:focus {
@@ -1367,7 +1305,7 @@ section * {
   line-height: 25px;
 }
 .footer-2 a {
-  color: #bdc3c7;
+  color: #f000ff;
   font-weight: normal;
 }
 .footer-2 a:hover,
@@ -1419,7 +1357,7 @@ section * {
   transition: 0.25s top;
 }
 .footer-2 .social-btns > * > *:first-child {
-  color: #bdc3c7;
+  color: #f000ff;
 }
 .footer-2 .social-btns > *:hover > * {
   top: -100%;
@@ -1427,7 +1365,7 @@ section * {
 .footer-2 .additional-links {
   font-size: 12px;
   font-weight: normal;
-  color: #bdc3c7;
+  color: #f000ff;
   text-align: center;
 }
 @media (max-width: 991px) {
@@ -1493,7 +1431,8 @@ section * {
   }
 }
 .header-11-sub h3 {
-  color: #2c3e50;
+  color: #000;
+;
 }
 .header-11-sub p {
   color: #7f8c8d;
@@ -1533,12 +1472,14 @@ section * {
 }
 .price-1 h3 {
   margin: 0 0 8px;
+    color: #f000ff;
+
   font-size: 35px;
   text-align: center;
-  letter-spacing: -1px;
+  letter-spacing: 1px;
 }
 .price-1 .lead {
-  font-size: 25px;
+  font-size: 1px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
   margin-bottom: 55px;
